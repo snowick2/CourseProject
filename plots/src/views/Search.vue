@@ -24,12 +24,14 @@
         :preview="false"
         :placeholder="true"
     />
+    <div v-if="!searching" class="center">
+      {{genre}}
+    </div>
   </div>
 </template>
 
 <script>
 import axios from "axios";
-
 export default {
   name: "search",
   data() {
@@ -37,13 +39,34 @@ export default {
       searching: false,
       searchQuery: "",
       imgUrl: "",
-      plot: ""
+      plot: "",
+      genre: ""
     };
   },
   methods: {
-    onSearch(val) {
+    classification() {
+      let me = this;
+      axios({
+        method: "get",
+        url: "http://localhost:2020/",
+        responseType: "json",
+        params: {
+          plot: this.plot
+        }
+      })
+          .then(function (response) {
+            me.genre = response.data;
+            me.searching = false;
+          })
+          .catch(function (err) {
+            me.searching = false;
+            console.log(err);
+          });
+    },
+    async onSearch(val) {
       this.searchQuery = val;
-      this.fetch();
+      await this.fetch();
+      this.classification();
     },
     fetch() {
       let me = this;
