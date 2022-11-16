@@ -15,7 +15,7 @@ myInterface.on('line', function (line) {
 
 myInterface.on('close', function () {
     let documents = []
-    for(let i = 0; i < 10000; i++) {
+    for(let i = 0; i < trainArray.length; i++) {
         let movie = trainArray[i];
         let splitData = movie.split(":::");
         let genre = splitData[2].trim();
