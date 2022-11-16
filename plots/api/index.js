@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     natural.BayesClassifier.load('../train/classifier.json', null, function (err, classifier) {
         let genre = classifier.classify(plot);
         res.json({
-            message: genre
+            genre: genre
         });
     });
 });

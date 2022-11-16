@@ -24,7 +24,7 @@
         :preview="false"
         :placeholder="true"
     />
-    <div v-if="!searching" class="center">
+    <div v-if="!classifying" class="center">
       {{genre}}
     </div>
   </div>
@@ -37,6 +37,7 @@ export default {
   data() {
     return {
       searching: false,
+      classifying: false,
       searchQuery: "",
       imgUrl: "",
       plot: "",
@@ -46,6 +47,7 @@ export default {
   methods: {
     classification() {
       let me = this;
+      me.classifying = true;
       axios({
         method: "get",
         url: "http://localhost:2020/",
@@ -55,11 +57,11 @@ export default {
         }
       })
           .then(function (response) {
-            me.genre = response.data;
-            me.searching = false;
+            me.genre = response.data.genre;
+            me.classifying = false;
           })
           .catch(function (err) {
-            me.searching = false;
+            me.classifying = false;
             console.log(err);
           });
     },
