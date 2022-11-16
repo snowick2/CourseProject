@@ -1,4 +1,4 @@
-# openlib
+# plots
 
 To run this project locally:
 1. Install node.js https://nodejs.org/en/
