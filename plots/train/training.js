@@ -12,5 +12,13 @@ myInterface.on('line', function (line) {
 });
 
 myInterface.on('close', function () {
-    console.log(trainArray[0])
+    let documents = []
+    for(let movie of trainArray) {
+        let splitData = movie.split(":::");
+        let genre = splitData[2].trim();
+        let plot = splitData[3].trim();
+        let document = [plot, genre];
+        documents.push(document)
+    }
+    console.log(documents);
 });
