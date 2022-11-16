@@ -4,14 +4,16 @@ const natural = require("natural");
 
 const app = express();
 
-app.use(cors())
+app.use(cors());
 
 app.get('/', (req, res) => {
     let plot = req.query.plot;
     natural.BayesClassifier.load('../train/classifier.json', null, function (err, classifier) {
         let genre = classifier.classify(plot);
+        let classes = classifier.getClassifications(plot);
         res.json({
-            genre: genre
+            genre: genre,
+            classes: classes
         });
     });
 });

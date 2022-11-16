@@ -58,6 +58,7 @@ export default {
       })
           .then(function (response) {
             me.genre = response.data.genre;
+            console.log(response.data.classes);
             me.classifying = false;
           })
           .catch(function (err) {
@@ -65,10 +66,9 @@ export default {
             console.log(err);
           });
     },
-    async onSearch(val) {
+    onSearch(val) {
       this.searchQuery = val;
-      await this.fetch();
-      this.classification();
+      this.fetch();
     },
     fetch() {
       let me = this;
@@ -86,6 +86,7 @@ export default {
           me.plot = response.data.Plot;
           me.imgUrl = response.data.Poster;
           me.searching = false;
+          me.classification();
         })
         .catch(function (err) {
           me.searching = false;
