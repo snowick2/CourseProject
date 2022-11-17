@@ -30,10 +30,10 @@
           v-if="classifying"
           class="center"
           style="margin-left: 25%;margin-top:5%;"
-          tip="Classifying..."
+          :tip="classSpinner"
       />
     </a-row>
-      <div v-if="!classifying" class="center" style="margin-top:5%;">
+      <div v-if="!classifying && genre" class="center" style="margin-top:5%;">
         Genre: {{genre}}
       </div>
     <div v-if="!classifying" class="center" style="margin-top:5%;">
@@ -56,7 +56,8 @@ export default {
       imgUrl: "",
       plot: "",
       genre: "",
-      classes: null
+      classes: null,
+      classSpinner: "Classifying..."
     };
   },
   methods: {
@@ -77,7 +78,7 @@ export default {
             me.classifying = false;
           })
           .catch(function (err) {
-            me.classifying = false;
+            me.classSpinner = "Classifier Error. Check that server is still up."
             console.log(err);
           });
     },
@@ -101,7 +102,12 @@ export default {
           me.plot = response.data.Plot;
           me.imgUrl = response.data.Poster;
           me.searching = false;
-          me.classification();
+          if(response.data.Response !== "False") {
+            me.classification();
+          } else {
+            me.genre = "";
+            me.classes = null;
+          }
         })
         .catch(function (err) {
           me.searching = false;
