@@ -24,8 +24,22 @@
         :preview="false"
         :placeholder="true"
     />
-    <div v-if="!classifying" class="center">
-      {{genre}}
+    <a-row>
+      <a-spin
+          size="large"
+          v-if="classifying"
+          class="center"
+          style="margin-left: 25%;margin-top:5%;"
+          tip="Classifying..."
+      />
+    </a-row>
+      <div v-if="!classifying" class="center" style="margin-top:5%;">
+        Genre: {{genre}}
+      </div>
+    <div v-if="!classifying" class="center" style="margin-top:5%;">
+      <div v-for="(item, index) in classes" :key="index">
+        {{item.label}}:{{item.value}}
+      </div>
     </div>
   </div>
 </template>
@@ -41,7 +55,8 @@ export default {
       searchQuery: "",
       imgUrl: "",
       plot: "",
-      genre: ""
+      genre: "",
+      classes: null
     };
   },
   methods: {
@@ -58,7 +73,7 @@ export default {
       })
           .then(function (response) {
             me.genre = response.data.genre;
-            console.log(response.data.classes);
+            me.classes = response.data.classes;
             me.classifying = false;
           })
           .catch(function (err) {
