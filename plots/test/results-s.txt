@@ -1,0 +1,225 @@
+The Godfather Part II: romance
+The Dark Knight: romance
+The Lord of the Rings: The Fellowship of the Ring: romance
+The Godfather: romance
+The Shawshank Redemption: romance
+The Lord of the Rings: The Return of the King: romance
+The Lord of the Rings: The Two Towers: romance
+Pulp Fiction: romance
+Schindler's List: romance
+The Empire Strikes Back: romance
+12 Angry Men: romance
+Se7en: romance
+Forrest Gump: romance
+One Flew Over the Cuckoo's Nest: romance
+Fight Club: romance
+Goodfellas: romance
+The Silence of the Lambs: romance
+The Matrix: romance
+The Green Mile: romance
+The Pianist: romance
+The Lion King: romance
+Inception: romance
+Léon: romance
+La vita è bella: drama
+Cidade de Deus: drama
+Saving Private Ryan: romance
+It's a Wonderful Life: romance
+Star Wars: romance
+Back to the Future: romance
+Terminator 2: Judgment Day: romance
+The Prestige: romance
+Interstellar: romance
+American History X: romance
+Casablanca: romance
+Top Gun: Maverick: romance
+The Usual Suspects: romance
+Seppuku: adventure
+The Intouchables: romance
+Whiplash: romance
+The Departed: romance
+Alien: romance
+Gladiator: romance
+Psycho: romance
+Apocalypse Now: romance
+Once Upon a Time in the West: romance
+Modern Times: romance
+Memento: romance
+Rear Window: romance
+Django Unchained: romance
+Hotaru no haka: adventure
+Raiders of the Lost Ark: romance
+The Shining: romance
+The Great Dictator: romance
+The Lives of Others: romance
+Sunset Blvd.: romance
+Paths of Glory: adventure
+Aliens: romance
+WALL·E: romance
+Spider-Man: Into the Spider-Verse: romance
+The Dark Knight Rises: romance
+Witness for the Prosecution: romance
+Joker: romance
+Avengers: Infinity War: romance
+Inglourious Basterds: romance
+City Lights: romance
+American Beauty: romance
+Braveheart: romance
+Toy Story 3: romance
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb: romance
+Once Upon a Time in America: romance
+Avengers: Endgame: romance
+Requiem for a Dream: romance
+Coco: romance
+Das Boot: romance
+Good Will Hunting: romance
+Singin' in the Rain: romance
+Lawrence of Arabia: romance
+Amadeus: romance
+2001: A Space Odyssey: romance
+Star Wars: Episode VI - Return of the Jedi: romance
+Tengoku to jigoku: drama
+Kimi no na wa.: romance
+Eternal Sunshine of the Spotless Mind: romance
+Le fabuleux destin d'Amélie Poulain: adventure
+Jagten: drama
+3 Idiots: romance
+Citizen Kane: romance
+Reservoir Dogs: romance
+North by Northwest: romance
+M - Eine Stadt sucht einen Mörder: romance
+Double Indemnity: romance
+A Clockwork Orange: romance
+The Apartment: romance
+Vertigo: romance
+Toy Story: romance
+Taxi Driver: romance
+Full Metal Jacket: romance
+Ikiru: romance
+Scarface: romance
+L.A. Confidential: romance
+The Sting: romance
+Indiana Jones and the Last Crusade: romance
+To Kill a Mockingbird: romance
+Up: romance
+Heat: romance
+Snatch: romance
+Taare Zameen Par: romance
+Spider-Man: No Way Home: romance
+Metropolis: romance
+Die Hard: romance
+1917: romance
+Batman Begins: romance
+Der Untergang: romance
+Hamilton: romance
+Some Like It Hot: romance
+Incendies: romance
+Unforgiven: romance
+All About Eve: romance
+Casino: romance
+The Father: romance
+The Wolf of Wall Street: romance
+The Kid: romance
+Judgment at Nuremberg: romance
+Everything Everywhere All at Once: romance
+Green Book: romance
+There Will Be Blood: romance
+The Sixth Sense: romance
+A Beautiful Mind: romance
+Monty Python and the Holy Grail: romance
+Shutter Island: romance
+The Truman Show: romance
+The Great Escape: romance
+No Country for Old Men: romance
+Pan's Labyrinth: romance
+Jurassic Park: romance
+Yôjinbô: drama
+Rashômon: drama
+Ran: romance
+Kill Bill: Vol. 1: romance
+The Treasure of the Sierra Madre: romance
+The Elephant Man: romance
+Gone with the Wind: romance
+Raging Bull: romance
+Chinatown: romance
+V for Vendetta: romance
+Finding Nemo: romance
+Trainspotting: romance
+Dial M for Murder: romance
+Dangal: romance
+The Thing: romance
+The Bridge on the River Kwai: romance
+Inside Out: romance
+Gran Torino: romance
+Blade Runner: romance
+Million Dollar Baby: romance
+Prisoners: romance
+On the Waterfront: romance
+"Lock, Stock and Two Smoking Barrels": romance
+"Three Billboards Outside Ebbing, Missouri": romance
+Warrior: romance
+The Gold Rush: romance
+Ben-Hur: romance
+Catch Me If You Can: romance
+The Third Man: romance
+Fargo: romance
+The General: romance
+The Grand Budapest Hotel: romance
+12 Years a Slave: romance
+Harry Potter and the Deathly Hallows: Part 2: romance
+Gone Girl: romance
+Smultronstället: drama
+The Deer Hunter: romance
+Mr. Smith Goes to Washington: romance
+Klaus: romance
+Mad Max: Fury Road: romance
+In the Name of the Father: romance
+"Monsters, Inc.": romance
+Sherlock Jr.: romance
+Hacksaw Ridge: romance
+Room: romance
+Barry Lyndon: romance
+Before Sunrise: romance
+Mary and Max.: romance
+How to Train Your Dragon: romance
+Rocky: romance
+Hotel Rwanda: romance
+The Big Lebowski: romance
+Dead Poets Society: romance
+Jaws: romance
+The Terminator: romance
+Tôkyô monogatari: drama
+Ford v Ferrari: romance
+Platoon: romance
+Stand by Me: romance
+Pather Panchali: romance
+Into the Wild: romance
+The Best Years of Our Lives: romance
+Groundhog Day: romance
+Ratatouille: romance
+Spotlight: romance
+Rebecca: romance
+The Exorcist: romance
+Network: romance
+To Be or Not to Be: romance
+Hachi: A Dog's Tale: romance
+Cool Hand Luke: romance
+Amores perros: romance
+The Grapes of Wrath: romance
+The Incredibles: romance
+Life of Brian: romance
+La haine: romance
+Before Sunset: romance
+Persona: romance
+Dersu Uzala: romance
+Jai Bhim: romance
+It Happened One Night: romance
+Pirates of the Caribbean: The Curse of the Black Pearl: romance
+Rush: romance
+Logan: romance
+Aladdin: romance
+The Sound of Music: romance
+Beauty and the Beast: romance
+Gandhi: romance
+The Wizard of Oz: adventure
+The Help: romance
