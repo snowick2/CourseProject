@@ -15,6 +15,14 @@ To run this project's UI locally:
 2. npm run serve from project root
 3. Navigate to localhost:8080 in a browser
 
+To train on a new dataset:
+1. cd train
+2. Add a training data file to this directory
+3. Modify training.js to parse and train the training data.
+4. Modify training.js to save the classifier to a new .json file
+5. node training.js
+6. Set index.js to load your new classifier at line 11
+
 ```
 
 ### Customize configuration
