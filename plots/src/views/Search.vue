@@ -1,5 +1,9 @@
 <template>
   <div>
+    <div style="margin-bottom: 10px">
+      Search for a movie by its title and the app will classify the movie into a
+      genre, based off its plot.
+    </div>
     <a-input-search
       placeholder="Search"
       style="width: 200px"
