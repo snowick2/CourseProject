@@ -1,31 +1,20 @@
 # plots
 
-To run this project locally:
-1. Install node.js https://nodejs.org/en/
-2. npm install
-3. npm run serve
-4. Navigate to localhost:8080
-
-
-
 ## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Before running this project locally, please install node.js https://nodejs.org/en/
+Once node is installed, run npm install from the project root.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+To run this project locally you will need to run the API and UI.
 
-### Lints and fixes files
-```
-npm run lint
+To run this project's API locally:
+1. cd api
+2. node index.js
+
+To run this project's UI locally:
+2. npm run serve from project root
+3. Navigate to localhost:8080 in a browser
+
 ```
 
 ### Customize configuration
