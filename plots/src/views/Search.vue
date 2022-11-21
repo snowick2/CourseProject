@@ -15,30 +15,30 @@
       />
     </a-row>
     <div v-if="!searching" class="center">
-     {{plot}}
+      {{ plot }}
     </div>
     <a-image
-        style="margin-top: 25px"
-        :width="200"
-        :src="imgUrl"
-        :preview="false"
-        :placeholder="true"
+      style="margin-top: 25px"
+      :width="200"
+      :src="imgUrl"
+      :preview="false"
+      :placeholder="true"
     />
     <a-row>
       <a-spin
-          size="large"
-          v-if="classifying"
-          class="center"
-          style="margin-left: 25%;margin-top:5%;"
-          :tip="classSpinner"
+        size="large"
+        v-if="classifying"
+        class="center"
+        style="margin-left: 25%; margin-top: 5%"
+        :tip="classSpinner"
       />
     </a-row>
-      <div v-if="!classifying && genre" class="center" style="margin-top:5%;">
-        Genre: {{genre}}
-      </div>
-    <div v-if="!classifying" class="center" style="margin-top:5%;">
+    <div v-if="!classifying && genre" class="center" style="margin-top: 5%">
+      Genre: {{ genre }}
+    </div>
+    <div v-if="!classifying" class="center" style="margin-top: 5%">
       <div v-for="(item, index) in classes" :key="index">
-        {{item.label}}:{{item.value}}
+        {{ item.label }}:{{ item.value }}
       </div>
     </div>
   </div>
@@ -57,7 +57,7 @@ export default {
       plot: "",
       genre: "",
       classes: null,
-      classSpinner: "Classifying..."
+      classSpinner: "Classifying...",
     };
   },
   methods: {
@@ -69,18 +69,18 @@ export default {
         url: "http://localhost:2020/",
         responseType: "json",
         params: {
-          plot: this.plot
-        }
+          plot: this.plot,
+        },
       })
-          .then(function (response) {
-            me.genre = response.data.genre;
-            me.classes = response.data.classes;
-            me.classifying = false;
-          })
-          .catch(function (err) {
-            me.classSpinner = "Classifier Error. Check that server is still up."
-            console.log(err);
-          });
+        .then(function (response) {
+          me.genre = response.data.genre;
+          me.classes = response.data.classes;
+          me.classifying = false;
+        })
+        .catch(function (err) {
+          me.classSpinner = "Classifier Error. Check that server is still up.";
+          console.log(err);
+        });
     },
     onSearch(val) {
       this.searchQuery = val;
@@ -95,14 +95,14 @@ export default {
         responseType: "json",
         params: {
           t: me.searchQuery,
-          plot: "full"
+          plot: "full",
         },
       })
         .then(function (response) {
           me.plot = response.data.Plot;
           me.imgUrl = response.data.Poster;
           me.searching = false;
-          if(response.data.Response !== "False") {
+          if (response.data.Response !== "False") {
             me.classification();
           } else {
             me.genre = "";
