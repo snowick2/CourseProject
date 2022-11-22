@@ -1,0 +1,225 @@
+It's a Wonderful Life: war
+The Lord of the Rings: The Fellowship of the Ring: fantasy
+Schindler's List: war
+Forrest Gump: war
+The Godfather Part II: biography
+The Lord of the Rings: The Return of the King: war
+The Matrix: fantasy
+Se7en: war
+The Shawshank Redemption: biography
+The Dark Knight: war
+12 Angry Men: mystery
+Cidade de Deus: drama
+The Lord of the Rings: The Two Towers: fantasy
+Goodfellas: other
+American History X: war
+Star Wars: war
+La vita è bella: drama
+Léon: crime
+Pulp Fiction: war
+The Lion King: fantasy
+Terminator 2: Judgment Day: war
+Psycho: other
+Gladiator: war
+Inception: war
+The Silence of the Lambs: war
+The Usual Suspects: crime
+The Empire Strikes Back: action
+Raiders of the Lost Ark: war
+Apocalypse Now: war
+Modern Times: war
+Memento: drama
+One Flew Over the Cuckoo's Nest: war
+Once Upon a Time in the West: western
+Seppuku: drama
+Hotaru no haka: war
+Joker: war
+The Lives of Others: war
+The Green Mile: crime
+Rear Window: mystery
+Interstellar: sci-fi
+Avengers: Infinity War: war
+Paths of Glory: war
+The Prestige: war
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb: war
+Casablanca: war
+Spider-Man: Into the Spider-Verse: war
+Coco: biography
+Avengers: Endgame: war
+The Great Dictator: war
+3 Idiots: war
+Das Boot: war
+Eternal Sunshine of the Spotless Mind: war
+The Shining: war
+Inglourious Basterds: war
+The Godfather: war
+A Clockwork Orange: war
+2001: A Space Odyssey: sci-fi
+The Pianist: war
+Good Will Hunting: romance
+Saving Private Ryan: war
+WALL·E: war
+Fight Club: war
+North by Northwest: war
+Requiem for a Dream: war
+Whiplash: war
+Toy Story: other
+Lawrence of Arabia: war
+The Dark Knight Rises: war
+Django Unchained: western
+Tengoku to jigoku: drama
+Amadeus: war
+American Beauty: war
+Toy Story 3: war
+Scarface: war
+The Departed: war
+City Lights: romance
+Back to the Future: musical
+Singin' in the Rain: musical
+Full Metal Jacket: war
+Kimi no na wa.: war
+Snatch: other
+Aliens: war
+Vertigo: mystery
+Sunset Blvd.: war
+Taxi Driver: war
+Citizen Kane: biography
+Die Hard: war
+Braveheart: war
+M - Eine Stadt sucht einen Mörder: crime
+Heat: war
+Once Upon a Time in America: war
+Reservoir Dogs: war
+Double Indemnity: mystery
+Some Like It Hot: war
+Up: mystery
+Metropolis: war
+A Beautiful Mind: biography
+Judgment at Nuremberg: war
+Pan's Labyrinth: war
+The Great Escape: war
+All About Eve: musical
+The Sixth Sense: mystery
+Ran: war
+Jagten: drama
+Hamilton: biography
+Le fabuleux destin d'Amélie Poulain: documentary
+L.A. Confidential: other
+Ikiru: war
+Casino: war
+Dangal: game-show
+1917: war
+The Sting: crime
+Indiana Jones and the Last Crusade: mystery
+Spider-Man: No Way Home: sci-fi
+Everything Everywhere All at Once: documentary
+Finding Nemo: war
+The Apartment: war
+Der Untergang: war
+Monty Python and the Holy Grail: war
+There Will Be Blood: war
+To Kill a Mockingbird: war
+The Elephant Man: war
+The Father: war
+The Wolf of Wall Street: game-show
+Unforgiven: war
+The Kid: other
+The Truman Show: war
+The Bridge on the River Kwai: war
+Ben-Hur: war
+Jurassic Park: war
+V for Vendetta: war
+Taare Zameen Par: musical
+Chinatown: war
+Gran Torino: war
+Raging Bull: other
+Yôjinbô: drama
+The General: war
+Batman Begins: war
+Kill Bill: Vol. 1: war
+Rashômon: drama
+Mr. Smith Goes to Washington: war
+Gone Girl: mystery
+Dial M for Murder: mystery
+The Third Man: war
+"Lock, Stock and Two Smoking Barrels": other
+Gone with the Wind: war
+The Deer Hunter: war
+Warrior: war
+Inside Out: war
+The Treasure of the Sierra Madre: war
+Shutter Island: mystery
+The Thing: war
+The Gold Rush: war
+No Country for Old Men: war
+The Grand Budapest Hotel: war
+Fargo: mystery
+Spotlight: news
+How to Train Your Dragon: war
+Smultronstället: drama
+Harry Potter and the Deathly Hallows: Part 2: war
+Sherlock Jr.: mystery
+Mad Max: Fury Road: war
+In the Name of the Father: mystery
+The Big Lebowski: war
+Catch Me If You Can: war
+Trainspotting: war
+Blade Runner: war
+Logan: war
+"Three Billboards Outside Ebbing, Missouri": war
+Barry Lyndon: war
+Top Gun: Maverick: war
+Pather Panchali: romance
+Dead Poets Society: war
+The Terminator: war
+Room: war
+Million Dollar Baby: war
+Klaus: war
+Mary and Max.: romance
+Jaws: war
+Rocky: game-show
+Into the Wild: biography
+12 Years a Slave: war
+Stand by Me: family
+Cool Hand Luke: war
+"Monsters, Inc.": war
+Before Sunrise: romance
+La haine: war
+Rush: biography
+Amores perros: war
+Gandhi: war
+Platoon: war
+Ratatouille: war
+The Best Years of Our Lives: war
+Hacksaw Ridge: war
+Incendies: war
+Ford v Ferrari: war
+Groundhog Day: war
+Persona: war
+Jai Bhim: war
+The Grapes of Wrath: war
+Before Sunset: news
+On the Waterfront: war
+Green Book: war
+Pirates of the Caribbean: The Curse of the Black Pearl: war
+The Help: mystery
+To Be or Not to Be: war
+The Wizard of Oz: adventure
+Aladdin: fantasy
+Dersu Uzala: war
+Prisoners: mystery
+Rebecca: mystery
+Star Wars: Episode VI - Return of the Jedi: war
+Network: war
+The Exorcist: war
+The Intouchables: war
+It Happened One Night: other
+Alien: war
+Life of Brian: war
+The Sound of Music: war
+The Incredibles: war
+Beauty and the Beast: war
+Hachi: A Dog's Tale: war
+Tôkyô monogatari: drama
+Hotel Rwanda: war
+Witness for the Prosecution: mystery

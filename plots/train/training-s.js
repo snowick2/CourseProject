@@ -16,13 +16,10 @@ myInterface.on('line', function (line) {
 myInterface.on('close', function () {
     for(let i = 1; i < trainArray.length; i++) {
         let rec = trainArray[i];
-        //console.log(rec)
         let splitData = rec.split('"');
         let script = splitData[1];
         if(splitData[2]) {
             let genre = splitData[2].replace(',', '');
-            // console.log(script);
-            // console.log(genre);
             classifier.addDocument(script, genre);
         }
     }

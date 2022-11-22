@@ -25,7 +25,7 @@ let fetchPlot = async (title) => {
 
 let classifyMovie = (plot, title) => {
     console.log("classifying")
-    natural.BayesClassifier.load('../train/classifier-s.json', null, function (err, classifier) {
+    natural.BayesClassifier.load('../train/classifier-p-s.json', null, function (err, classifier) {
         let genre = classifier.classify(plot);
         // output genre and title to file
         writeResults(title, genre);
@@ -33,7 +33,7 @@ let classifyMovie = (plot, title) => {
 }
 
 let writeResults = (title, genre) => {
-    fs.appendFile('results-s.txt', title + ': ' + genre + '\n', function (err) {
+    fs.appendFile('results-p-s.txt', title + ': ' + genre + '\n', function (err) {
         if (err) {
             // append failed
         } else {
