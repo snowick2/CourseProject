@@ -27,13 +27,26 @@ let classifyMovie = (plot, title) => {
     console.log("classifying")
     natural.BayesClassifier.load('../train/classifier-p-s.json', null, function (err, classifier) {
         let genre = classifier.classify(plot);
+        let classes = classifier.getClassifications(plot);
+        let secondClass = classes[1].label;
+        let warWords = [' war ', ' army ', ' soldier ']
+        if (genre === 'war') {
+            let isWar = false;
+            for (let word of warWords) {
+                if (plot.toLowerCase().indexOf(word) !== -1) {
+                    isWar = true;
+                    break;
+                }
+            }
+            if (!isWar) genre = secondClass;
+        }
         // output genre and title to file
         writeResults(title, genre);
     });
 }
 
 let writeResults = (title, genre) => {
-    fs.appendFile('results-p-s.txt', title + ': ' + genre + '\n', function (err) {
+    fs.appendFile('results-tuned.txt', title + ': ' + genre + '\n', function (err) {
         if (err) {
             // append failed
         } else {

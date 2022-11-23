@@ -1,0 +1,225 @@
+12 Angry Men: mystery
+The Godfather: war
+The Lord of the Rings: The Return of the King: war
+The Godfather Part II: biography
+Goodfellas: other
+Terminator 2: Judgment Day: fantasy
+Back to the Future: musical
+The Silence of the Lambs: mystery
+Cidade de Deus: drama
+Fight Club: musical
+Schindler's List: biography
+The Lord of the Rings: The Fellowship of the Ring: fantasy
+Inception: mystery
+The Dark Knight: mystery
+It's a Wonderful Life: mystery
+Star Wars: action
+Interstellar: sci-fi
+Pulp Fiction: game-show
+La vita è bella: drama
+The Usual Suspects: crime
+The Lord of the Rings: The Two Towers: fantasy
+The Pianist: war
+The Green Mile: crime
+Saving Private Ryan: war
+The Matrix: fantasy
+The Prestige: mystery
+Psycho: other
+The Departed: war
+Once Upon a Time in the West: western
+Léon: crime
+The Intouchables: mystery
+The Lion King: fantasy
+Modern Times: other
+American History X: crime
+Se7en: mystery
+Whiplash: biography
+The Lives of Others: mystery
+Alien: sci-fi
+Apocalypse Now: war
+City Lights: romance
+Top Gun: Maverick: biography
+Django Unchained: western
+Hotaru no haka: war
+Casablanca: mystery
+Forrest Gump: war
+Memento: drama
+The Shining: other
+Paths of Glory: war
+The Dark Knight Rises: mystery
+Raiders of the Lost Ark: history
+Avengers: Infinity War: history
+Rear Window: mystery
+Witness for the Prosecution: mystery
+Seppuku: drama
+Joker: biography
+Spider-Man: Into the Spider-Verse: news
+Sunset Blvd.: musical
+Aliens: sci-fi
+The Empire Strikes Back: action
+One Flew Over the Cuckoo's Nest: biography
+Gladiator: fantasy
+WALL·E: other
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb: war
+Avengers: Endgame: war
+The Great Dictator: history
+Toy Story 3: other
+2001: A Space Odyssey: sci-fi
+Kimi no na wa.: drama
+Once Upon a Time in America: biography
+3 Idiots: game-show
+Singin' in the Rain: musical
+Toy Story: other
+Amadeus: musical
+Das Boot: war
+Coco: biography
+Braveheart: fantasy
+Good Will Hunting: romance
+Requiem for a Dream: musical
+Reservoir Dogs: crime
+Inglourious Basterds: war
+American Beauty: biography
+North by Northwest: mystery
+Eternal Sunshine of the Spotless Mind: other
+Lawrence of Arabia: history
+The Apartment: other
+Tengoku to jigoku: drama
+M - Eine Stadt sucht einen Mörder: crime
+Full Metal Jacket: war
+Vertigo: mystery
+Scarface: mystery
+Taxi Driver: war
+Double Indemnity: mystery
+Metropolis: mystery
+Jagten: drama
+Indiana Jones and the Last Crusade: mystery
+Snatch: other
+Hamilton: biography
+Taare Zameen Par: musical
+Le fabuleux destin d'Amélie Poulain: documentary
+Heat: mystery
+Up: mystery
+Star Wars: Episode VI - Return of the Jedi: history
+1917: history
+Der Untergang: history
+L.A. Confidential: other
+There Will Be Blood: mystery
+Some Like It Hot: game-show
+Spider-Man: No Way Home: sci-fi
+Batman Begins: mystery
+Citizen Kane: biography
+Ikiru: romance
+Die Hard: other
+The Sting: crime
+A Clockwork Orange: crime
+Ran: war
+The Great Escape: history
+Judgment at Nuremberg: war
+The Kid: other
+All About Eve: musical
+The Father: other
+Green Book: biography
+Pan's Labyrinth: fantasy
+A Beautiful Mind: biography
+Dangal: game-show
+Gone with the Wind: war
+Yôjinbô: drama
+Unforgiven: history
+The Sixth Sense: mystery
+Million Dollar Baby: mystery
+Everything Everywhere All at Once: documentary
+The Treasure of the Sierra Madre: western
+Rashômon: drama
+The Wolf of Wall Street: game-show
+The Bridge on the River Kwai: history
+"Three Billboards Outside Ebbing, Missouri": mystery
+The Truman Show: news
+"Lock, Stock and Two Smoking Barrels": other
+The Elephant Man: biography
+Prisoners: mystery
+V for Vendetta: history
+To Kill a Mockingbird: mystery
+Trainspotting: biography
+Finding Nemo: mystery
+Shutter Island: mystery
+The Thing: sci-fi
+Kill Bill: Vol. 1: mystery
+Dial M for Murder: mystery
+Raging Bull: other
+Smultronstället: drama
+Harry Potter and the Deathly Hallows: Part 2: mystery
+Inside Out: other
+No Country for Old Men: mystery
+Before Sunrise: romance
+The Gold Rush: musical
+Chinatown: mystery
+12 Years a Slave: war
+The General: war
+The Big Lebowski: other
+Warrior: history
+Mary and Max.: romance
+Klaus: news
+Incendies: fantasy
+Mr. Smith Goes to Washington: biography
+Fargo: mystery
+Blade Runner: biography
+Mad Max: Fury Road: fantasy
+How to Train Your Dragon: fantasy
+Gone Girl: mystery
+Into the Wild: biography
+Gran Torino: war
+The Third Man: war
+"Monsters, Inc.": mystery
+Tôkyô monogatari: drama
+Room: fantasy
+Barry Lyndon: war
+The Deer Hunter: war
+The Grand Budapest Hotel: biography
+Platoon: war
+Catch Me If You Can: crime
+In the Name of the Father: mystery
+Pather Panchali: romance
+Dead Poets Society: biography
+Ben-Hur: other
+To Be or Not to Be: war
+Rush: biography
+Hotel Rwanda: history
+Hacksaw Ridge: war
+The Best Years of Our Lives: war
+Cool Hand Luke: history
+Jaws: mystery
+Rocky: game-show
+The Shawshank Redemption: biography
+The Terminator: war
+Ford v Ferrari: news
+Persona: mystery
+Before Sunset: news
+The Incredibles: mystery
+The Wizard of Oz: adventure
+Spotlight: news
+Rebecca: mystery
+Logan: fantasy
+Stand by Me: family
+Groundhog Day: other
+The Sound of Music: biography
+The Grapes of Wrath: other
+Amores perros: mystery
+Network: news
+La haine: biography
+Pirates of the Caribbean: The Curse of the Black Pearl: fantasy
+Sherlock Jr.: mystery
+Hachi: A Dog's Tale: mystery
+Aladdin: fantasy
+Ratatouille: mystery
+Dersu Uzala: war
+On the Waterfront: mystery
+The Exorcist: mystery
+Gandhi: war
+It Happened One Night: other
+Jai Bhim: mystery
+The Help: mystery
+Beauty and the Beast: mystery
+Life of Brian: biography
+Jurassic Park: news
+Monty Python and the Holy Grail: fantasy
+Casino: biography
