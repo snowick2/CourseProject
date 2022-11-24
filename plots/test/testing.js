@@ -2,6 +2,7 @@ const readline = require('readline');
 const fs = require('fs');
 const axios = require('axios');
 const natural = require("natural");
+const util = require("../tune/util");
 let moviesAndPlots = []
 let fetchPlot = async (title) => {
     await axios({
@@ -28,18 +29,7 @@ let classifyMovie = (plot, title) => {
     natural.BayesClassifier.load('../train/classifier-p-s.json', null, function (err, classifier) {
         let genre = classifier.classify(plot);
         let classes = classifier.getClassifications(plot);
-        let secondClass = classes[1].label;
-        let warWords = [' war ', ' army ', ' soldier ']
-        if (genre === 'war') {
-            let isWar = false;
-            for (let word of warWords) {
-                if (plot.toLowerCase().indexOf(word) !== -1) {
-                    isWar = true;
-                    break;
-                }
-            }
-            if (!isWar) genre = secondClass;
-        }
+        genre = util.lessWar(plot, genre, classes);
         // output genre and title to file
         writeResults(title, genre);
     });
