@@ -41,7 +41,7 @@
       Genre: {{ genre }}
     </div>
     <div v-if="!classifying" class="center" style="margin-top: 5%">
-      <div v-for="(item, index) in classes" :key="index">
+      <div v-for="(item, index) in classesCleaned" :key="index">
         {{ item.label }}:{{ item.value }}
       </div>
     </div>
@@ -63,6 +63,15 @@ export default {
       classes: null,
       classSpinner: "Classifying...",
     };
+  },
+  computed: {
+    classesCleaned() {
+      if(this.genre !== 'war' && (this.classes && this.classes[0].label === 'war')){
+        return this.classes.slice(1, this.classes.length);
+      } else {
+        return this.classes;
+      }
+    }
   },
   methods: {
     classification() {
