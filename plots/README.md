@@ -9,7 +9,7 @@ To run this project locally you will need to run the API and UI.
 
 To run this project's API locally:
 1. cd api
-2. node index.js
+2. node index.js [path/to/classifier]
 
 To run this project's UI locally:
 2. npm run serve from project root
@@ -21,7 +21,7 @@ To train on a new dataset:
 3. Modify training.js to parse and train the training data.
 4. Modify training.js to save the classifier to a new .json file
 5. node training.js
-6. Set index.js to load your new classifier at line 11
+6. Serve the api with the path to your classifier passed in as a param
 
 ```
 

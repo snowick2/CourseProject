@@ -4,12 +4,12 @@ const natural = require("natural");
 const util = require('../tune/util')
 
 const app = express();
-
+let classifier = '../train/classifier.json';
 app.use(cors());
 
 app.get('/', (req, res) => {
     let plot = req.query.plot;
-    natural.BayesClassifier.load('../train/classifier.json', null, function (err, classifier) {
+    natural.BayesClassifier.load(classifier, null, function (err, classifier) {
         let genre = classifier.classify(plot);
         let classes = classifier.getClassifications(plot);
         genre = util.lessWar(plot, genre, classes);
@@ -29,5 +29,8 @@ app.get('/:name', (req, res) => {
 });
 
 app.listen(2020, () => {
+    let classifyWith = process.argv.slice(2)[0];
+    if(classifyWith) classifier = classifyWith;
+    console.log(classifier);
     console.log('server is listening on port 2020');
 });
